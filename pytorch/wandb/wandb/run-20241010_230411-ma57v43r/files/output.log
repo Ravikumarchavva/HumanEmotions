@@ -1,0 +1,144 @@
+Number of training samples: 6799
+Number of testing samples: 2280
+c:\Users\chavv\anaconda\envs\huggingface-torch\lib\site-packages\tqdm\auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+c:\Users\chavv\anaconda\envs\huggingface-torch\lib\site-packages\huggingface_hub\file_download.py:147: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\chavv\.cache\huggingface\hub\datasets--huggingface--cats-image. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Downloading data: 100%|██████████| 173k/173k [00:00<00:00, 434kB/s] 
+Generating test split: 1 examples [00:00, 24.64 examples/s]
+Fast image processor class <class 'transformers.models.vit.image_processing_vit_fast.ViTImageProcessorFast'> is available for this model. Using slow image processor class. To use the fast image processor class set `use_fast=True`.
+Collecting ipywidgets
+  Downloading ipywidgets-8.1.5-py3-none-any.whl.metadata (2.3 kB)
+Collecting jupyter
+  Downloading jupyter-1.1.1-py2.py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: comm>=0.1.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipywidgets) (0.2.2)
+Requirement already satisfied: ipython>=6.1.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipywidgets) (8.12.0)
+Requirement already satisfied: traitlets>=4.3.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipywidgets) (5.14.3)
+Collecting widgetsnbextension~=4.0.12 (from ipywidgets)
+  Downloading widgetsnbextension-4.0.13-py3-none-any.whl.metadata (1.6 kB)
+Collecting jupyterlab-widgets~=3.0.12 (from ipywidgets)
+  Downloading jupyterlab_widgets-3.0.13-py3-none-any.whl.metadata (4.1 kB)
+Collecting notebook (from jupyter)
+  Downloading notebook-7.2.2-py3-none-any.whl.metadata (10 kB)
+Collecting jupyter-console (from jupyter)
+  Downloading jupyter_console-6.6.3-py3-none-any.whl.metadata (5.8 kB)
+Requirement already satisfied: nbconvert in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter) (7.16.4)
+Requirement already satisfied: ipykernel in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter) (6.29.5)
+Requirement already satisfied: jupyterlab in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter) (4.2.5)
+Requirement already satisfied: backcall in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.2.0)
+Requirement already satisfied: decorator in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (5.1.1)
+Requirement already satisfied: jedi>=0.16 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.19.1)
+Requirement already satisfied: matplotlib-inline in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.1.7)
+Requirement already satisfied: pickleshare in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.7.5)
+Requirement already satisfied: prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (3.0.48)
+Requirement already satisfied: pygments>=2.4.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (2.18.0)
+Requirement already satisfied: stack-data in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.6.2)
+Requirement already satisfied: typing-extensions in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (4.11.0)
+Requirement already satisfied: colorama in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipython>=6.1.0->ipywidgets) (0.4.6)
+Requirement already satisfied: debugpy>=1.6.5 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (1.6.7)
+Requirement already satisfied: jupyter-client>=6.1.12 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (8.6.3)
+Requirement already satisfied: jupyter-core!=5.0.*,>=4.12 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (5.7.2)
+Requirement already satisfied: nest-asyncio in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (1.6.0)
+Requirement already satisfied: packaging in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (24.1)
+Requirement already satisfied: psutil in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (5.9.0)
+Requirement already satisfied: pyzmq>=24 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (24.0.1)
+Requirement already satisfied: tornado>=6.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from ipykernel->jupyter) (6.2)
+Requirement already satisfied: async-lru>=1.0.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (2.0.4)
+Requirement already satisfied: httpx>=0.25.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (0.27.2)
+Requirement already satisfied: importlib-metadata>=4.8.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (8.5.0)
+Requirement already satisfied: jinja2>=3.0.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (3.1.4)
+Requirement already satisfied: jupyter-lsp>=2.0.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (2.2.5)
+Requirement already satisfied: jupyter-server<3,>=2.4.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (2.14.2)
+Requirement already satisfied: jupyterlab-server<3,>=2.27.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (2.27.3)
+Requirement already satisfied: notebook-shim>=0.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (0.2.4)
+Requirement already satisfied: setuptools>=40.1.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (75.1.0)
+Requirement already satisfied: tomli>=1.2.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab->jupyter) (2.0.2)
+Requirement already satisfied: beautifulsoup4 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (4.12.3)
+Requirement already satisfied: bleach!=5.0.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (6.1.0)
+Requirement already satisfied: defusedxml in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (0.7.1)
+Requirement already satisfied: jupyterlab-pygments in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (0.3.0)
+Requirement already satisfied: markupsafe>=2.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (2.1.3)
+Requirement already satisfied: mistune<4,>=2.0.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (3.0.2)
+Requirement already satisfied: nbclient>=0.5.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (0.10.0)
+Requirement already satisfied: nbformat>=5.7 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (5.10.4)
+Requirement already satisfied: pandocfilters>=1.4.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (1.5.1)
+Requirement already satisfied: tinycss2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbconvert->jupyter) (1.3.0)
+Requirement already satisfied: six>=1.9.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from bleach!=5.0.0->nbconvert->jupyter) (1.16.0)
+Requirement already satisfied: webencodings in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from bleach!=5.0.0->nbconvert->jupyter) (0.5.1)
+Requirement already satisfied: anyio in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpx>=0.25.0->jupyterlab->jupyter) (4.6.0)
+Requirement already satisfied: certifi in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpx>=0.25.0->jupyterlab->jupyter) (2024.8.30)
+Requirement already satisfied: httpcore==1.* in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpx>=0.25.0->jupyterlab->jupyter) (1.0.6)
+Requirement already satisfied: idna in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpx>=0.25.0->jupyterlab->jupyter) (3.7)
+Requirement already satisfied: sniffio in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpx>=0.25.0->jupyterlab->jupyter) (1.3.1)
+Requirement already satisfied: h11<0.15,>=0.13 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from httpcore==1.*->httpx>=0.25.0->jupyterlab->jupyter) (0.14.0)
+Requirement already satisfied: zipp>=3.20 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from importlib-metadata>=4.8.3->jupyterlab->jupyter) (3.20.2)
+Requirement already satisfied: parso<0.9.0,>=0.8.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jedi>=0.16->ipython>=6.1.0->ipywidgets) (0.8.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-client>=6.1.12->ipykernel->jupyter) (2.9.0)
+Requirement already satisfied: platformdirs>=2.5 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter) (4.3.6)
+Requirement already satisfied: pywin32>=300 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-core!=5.0.*,>=4.12->ipykernel->jupyter) (305.1)
+Requirement already satisfied: argon2-cffi>=21.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (23.1.0)
+Requirement already satisfied: jupyter-events>=0.9.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.10.0)
+Requirement already satisfied: jupyter-server-terminals>=0.4.4 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.5.3)
+Requirement already satisfied: overrides>=5.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (7.7.0)
+Requirement already satisfied: prometheus-client>=0.9 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.21.0)
+Requirement already satisfied: pywinpty>=2.0.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (2.0.13)
+Requirement already satisfied: send2trash>=1.8.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.8.3)
+Requirement already satisfied: terminado>=0.8.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.18.1)
+Requirement already satisfied: websocket-client>=1.7 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.8.0)
+Requirement already satisfied: babel>=2.10 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2.16.0)
+Requirement already satisfied: json5>=0.9.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (0.9.25)
+Requirement already satisfied: jsonschema>=4.18.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (4.23.0)
+Requirement already satisfied: requests>=2.31 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2.32.3)
+Requirement already satisfied: fastjsonschema>=2.15 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from nbformat>=5.7->nbconvert->jupyter) (2.20.0)
+Requirement already satisfied: wcwidth in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from prompt-toolkit!=3.0.37,<3.1.0,>=3.0.30->ipython>=6.1.0->ipywidgets) (0.2.13)
+Requirement already satisfied: soupsieve>1.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from beautifulsoup4->nbconvert->jupyter) (2.6)
+Requirement already satisfied: executing>=1.2.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from stack-data->ipython>=6.1.0->ipywidgets) (2.1.0)
+Requirement already satisfied: asttokens>=2.1.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from stack-data->ipython>=6.1.0->ipywidgets) (2.4.1)
+Requirement already satisfied: pure-eval in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from stack-data->ipython>=6.1.0->ipywidgets) (0.2.3)
+Requirement already satisfied: exceptiongroup>=1.0.2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from anyio->httpx>=0.25.0->jupyterlab->jupyter) (1.2.2)
+Requirement already satisfied: argon2-cffi-bindings in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (21.2.0)
+Requirement already satisfied: attrs>=22.2.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (24.2.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2024.10.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (0.35.1)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema>=4.18.0->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (0.20.0)
+Requirement already satisfied: python-json-logger>=2.0.4 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (2.0.7)
+Requirement already satisfied: pyyaml>=5.3 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (6.0.1)
+Requirement already satisfied: rfc3339-validator in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.1.4)
+Requirement already satisfied: rfc3986-validator>=0.1.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (0.1.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (3.3.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from requests>=2.31->jupyterlab-server<3,>=2.27.1->jupyterlab->jupyter) (2.2.3)
+Requirement already satisfied: fqdn in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.5.1)
+Requirement already satisfied: isoduration in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (20.11.0)
+Requirement already satisfied: jsonpointer>1.13 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (3.0.0)
+Requirement already satisfied: uri-template in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.3.0)
+Requirement already satisfied: webcolors>=24.6.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (24.8.0)
+Requirement already satisfied: cffi>=1.0.1 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.17.1)
+Requirement already satisfied: pycparser in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from cffi>=1.0.1->argon2-cffi-bindings->argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (2.22)
+Requirement already satisfied: arrow>=0.15.0 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (1.3.0)
+Requirement already satisfied: types-python-dateutil>=2.8.10 in c:\users\chavv\anaconda\envs\huggingface-torch\lib\site-packages (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]>=4.18.0->jupyter-events>=0.9.0->jupyter-server<3,>=2.4.0->jupyterlab->jupyter) (2.9.0.20241003)
+Downloading ipywidgets-8.1.5-py3-none-any.whl (139 kB)
+Downloading jupyter-1.1.1-py2.py3-none-any.whl (2.7 kB)
+Downloading jupyterlab_widgets-3.0.13-py3-none-any.whl (214 kB)
+Downloading widgetsnbextension-4.0.13-py3-none-any.whl (2.3 MB)
+   ---------------------------------------- 0.0/2.3 MB ? eta -:--:--
+   -------- ------------------------------- 0.5/2.3 MB 1.9 MB/s eta 0:00:01
+   ----------------- ---------------------- 1.0/2.3 MB 2.5 MB/s eta 0:00:01
+   -------------------------- ------------- 1.6/2.3 MB 2.5 MB/s eta 0:00:01
+   ----------------------------------- ---- 2.1/2.3 MB 2.4 MB/s eta 0:00:01
+   ---------------------------------------- 2.3/2.3 MB 2.4 MB/s eta 0:00:00
+Downloading jupyter_console-6.6.3-py3-none-any.whl (24 kB)
+Downloading notebook-7.2.2-py3-none-any.whl (5.0 MB)
+   ---------------------------------------- 0.0/5.0 MB ? eta -:--:--
+   -- ------------------------------------- 0.3/5.0 MB ? eta -:--:--
+   ------ --------------------------------- 0.8/5.0 MB 2.0 MB/s eta 0:00:03
+   ---------- ----------------------------- 1.3/5.0 MB 2.2 MB/s eta 0:00:02
+   -------------- ------------------------- 1.8/5.0 MB 2.2 MB/s eta 0:00:02
+   ------------------ --------------------- 2.4/5.0 MB 2.3 MB/s eta 0:00:02
+   ---------------------- ----------------- 2.9/5.0 MB 2.4 MB/s eta 0:00:01
+   --------------------------- ------------ 3.4/5.0 MB 2.4 MB/s eta 0:00:01
+   ------------------------------- -------- 3.9/5.0 MB 2.4 MB/s eta 0:00:01
+   ------------------------------------- -- 4.7/5.0 MB 2.5 MB/s eta 0:00:01
+   ---------------------------------------- 5.0/5.0 MB 2.5 MB/s eta 0:00:00
+Installing collected packages: widgetsnbextension, jupyterlab-widgets, ipywidgets, jupyter-console, notebook, jupyter
+Successfully installed ipywidgets-8.1.5 jupyter-1.1.1 jupyter-console-6.6.3 jupyterlab-widgets-3.0.13 notebook-7.2.2 widgetsnbextension-4.0.13

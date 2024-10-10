@@ -1,0 +1,8 @@
+.env
+.log
+
+
+Notebooks/wandb/wandb/
+Notebooks/wandb/debug-cli.root.log
+Notebooks/wandb/.ipynb_checkpoints/
+Notebooks/wandb/debug-internal.log
