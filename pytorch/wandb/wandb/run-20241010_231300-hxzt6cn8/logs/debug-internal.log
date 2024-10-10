@@ -10,3 +10,60 @@
 {"time":"2024-10-10T23:13:01.5774351+05:30","level":"INFO","msg":"Starting system monitor"}
 {"time":"2024-10-10T23:13:01.7443525+05:30","level":"INFO","msg":"Pausing system monitor"}
 {"time":"2024-10-10T23:13:01.7685865+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T23:13:04.776939+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T23:13:38.4943376+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T23:13:41.3116852+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T23:15:21.3638021+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T23:25:41.5905886+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:25:51.5882681+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:25:51.7531957+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/ravikumarchavva-org/transformers-human-pose-estimation/hxzt6cn8/file_stream"}
+{"time":"2024-10-10T23:25:51.7531957+05:30","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/ravikumarchavva-org/transformers-human-pose-estimation/hxzt6cn8/file_stream: {\"error\":\"run transformers-human-pose-estimation/hxzt6cn8 not found while streaming file\"}"}
+{"time":"2024-10-10T23:26:01.5864854+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:26:11.5890497+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:26:21.5888253+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:26:31.5892364+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:26:41.5925651+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:26:51.5915781+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:01.5926178+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:11.590668+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:21.5892756+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:31.5907702+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:41.5878722+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:27:51.590094+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:01.589906+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:11.5893774+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:21.5877985+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:31.5872088+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:41.5891391+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:28:51.586728+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:01.588072+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:11.5862644+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:21.5904089+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:31.5883349+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:41.5864828+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:29:51.5892915+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:01.5872257+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:11.5895191+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:21.5905851+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:31.5860103+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:41.5894625+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:30:51.5892407+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:01.5872988+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:11.5909681+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:21.589454+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:31.5866147+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:41.5861742+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:31:51.5877311+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:01.586407+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:11.5869249+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:21.587809+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:31.586786+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:41.5904338+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:32:51.5891454+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:01.5876146+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:11.5901595+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:21.5866179+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:31.5979309+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:41.5852679+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:33:51.5893241+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
+{"time":"2024-10-10T23:34:01.5876282+05:30","level":"ERROR","msg":"monitor: cpu: error sampling metrics: couldn't find pid: 7896"}
