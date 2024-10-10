@@ -1,0 +1,20 @@
+{"time":"2024-10-10T20:22:32.6789441+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T20:22:32.6789441+05:30","level":"INFO","msg":"created symlink","path":"d:\\github\\HumanEmotions\\pytorch\\wandb\\wandb\\run-20241010_202232-h8ecoxmx\\logs\\debug-core.log"}
+{"time":"2024-10-10T20:22:32.6806136+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T20:22:32.727559+05:30","level":"INFO","msg":"created new stream","id":"h8ecoxmx"}
+{"time":"2024-10-10T20:22:32.727559+05:30","level":"INFO","msg":"stream: started","id":"h8ecoxmx"}
+{"time":"2024-10-10T20:22:32.727559+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"h8ecoxmx"}}
+{"time":"2024-10-10T20:22:32.727559+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"h8ecoxmx"}}
+{"time":"2024-10-10T20:22:32.727559+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"h8ecoxmx"}}
+{"time":"2024-10-10T20:22:33.3849296+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T20:22:33.3862404+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T20:22:33.5524729+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:22:33.572026+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T20:22:33.5740637+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:22:38.7417025+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T20:22:43.0600461+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:22:56.5002309+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T20:22:59.0186882+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:23:08.5998047+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T20:23:08.6817975+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:23:15.6667449+05:30","level":"INFO","msg":"Resuming system monitor"}

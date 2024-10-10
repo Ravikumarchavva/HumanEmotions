@@ -1,0 +1,10 @@
+{"time":"2024-10-10T23:12:39.333661+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T23:12:39.333661+05:30","level":"INFO","msg":"created symlink","path":"d:\\github\\HumanEmotions\\pytorch\\wandb\\wandb\\run-20241010_231234-mxflkfsx\\logs\\debug-core.log"}
+{"time":"2024-10-10T23:12:39.3341968+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T23:12:39.3642696+05:30","level":"INFO","msg":"created new stream","id":"mxflkfsx"}
+{"time":"2024-10-10T23:12:39.3642696+05:30","level":"INFO","msg":"stream: started","id":"mxflkfsx"}
+{"time":"2024-10-10T23:12:39.3642696+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mxflkfsx"}}
+{"time":"2024-10-10T23:12:39.3642696+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"mxflkfsx"}}
+{"time":"2024-10-10T23:12:39.3642696+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"mxflkfsx"}}
+{"time":"2024-10-10T23:12:39.9350446+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T23:12:39.9361136+05:30","level":"INFO","msg":"Starting system monitor"}

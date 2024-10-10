@@ -1,0 +1,17 @@
+{"time":"2024-10-10T22:41:09.6085576+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T22:41:09.6085576+05:30","level":"INFO","msg":"created symlink","path":"d:\\github\\HumanEmotions\\pytorch\\wandb\\wandb\\run-20241010_224109-hpe95e9h\\logs\\debug-core.log"}
+{"time":"2024-10-10T22:41:09.6101926+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T22:41:09.6799489+05:30","level":"INFO","msg":"created new stream","id":"hpe95e9h"}
+{"time":"2024-10-10T22:41:09.6799489+05:30","level":"INFO","msg":"stream: started","id":"hpe95e9h"}
+{"time":"2024-10-10T22:41:09.6799489+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"hpe95e9h"}}
+{"time":"2024-10-10T22:41:09.6799489+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"hpe95e9h"}}
+{"time":"2024-10-10T22:41:09.6799489+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"hpe95e9h"}}
+{"time":"2024-10-10T22:41:10.3286214+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T22:41:10.3302391+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T22:41:10.5271478+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T22:41:10.5482738+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T22:41:10.5510997+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T22:41:25.4030811+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T22:41:31.327353+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T22:41:37.3798106+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T22:41:37.4070376+05:30","level":"INFO","msg":"Pausing system monitor"}
