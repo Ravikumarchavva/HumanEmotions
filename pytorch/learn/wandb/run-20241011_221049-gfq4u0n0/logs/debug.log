@@ -30,3 +30,15 @@ config: {'learning_rate': 1e-05, 'epochs': 10, 'batch_size': 32, 'image_size': 2
 2024-10-11 22:10:50,468 INFO    MainThread:10156 [jupyter.py:save_ipynb():387] not saving jupyter notebook
 2024-10-11 22:10:50,468 INFO    MainThread:10156 [wandb_init.py:_pause_backend():443] pausing backend
 2024-10-11 22:10:50,485 INFO    MainThread:10156 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 22:10:53,395 INFO    MainThread:10156 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 22:10:53,395 INFO    MainThread:10156 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 22:10:53,513 INFO    MainThread:10156 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 22:10:53,552 INFO    MainThread:10156 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 22:10:53,552 INFO    MainThread:10156 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 22:10:53,569 INFO    MainThread:10156 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 22:10:53,571 INFO    MainThread:10156 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 22:10:53,571 INFO    MainThread:10156 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 22:10:53,606 INFO    MainThread:10156 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 22:10:56,178 INFO    MainThread:10156 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 22:10:56,178 INFO    MainThread:10156 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 22:10:56,221 INFO    MainThread:10156 [wandb_init.py:_resume_backend():448] resuming backend

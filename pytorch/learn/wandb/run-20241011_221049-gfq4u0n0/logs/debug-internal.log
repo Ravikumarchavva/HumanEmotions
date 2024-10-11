@@ -10,3 +10,11 @@
 {"time":"2024-10-11T22:10:50.2957743+05:30","level":"INFO","msg":"Starting system monitor"}
 {"time":"2024-10-11T22:10:50.4692926+05:30","level":"INFO","msg":"Pausing system monitor"}
 {"time":"2024-10-11T22:10:50.4881229+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T22:10:53.3962576+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T22:10:53.5152381+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T22:10:53.5525999+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T22:10:53.5709318+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T22:10:53.5724477+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T22:10:53.6076043+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T22:10:56.1790461+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T22:10:56.2332743+05:30","level":"INFO","msg":"Resuming system monitor"}

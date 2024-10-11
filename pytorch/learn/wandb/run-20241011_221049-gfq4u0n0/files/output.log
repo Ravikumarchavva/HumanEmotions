@@ -1,2 +1,16 @@
 Epoch 1/5
-Training:  12%|█▏        | 25/213 [00:07<00:48,  3.87it/s]
+                                                           
+Train Loss: 0.5691, Train Accuracy: 0.7588
+Validation Loss: 0.4214, Validation Accuracy: 0.8570
+Epoch 2/5
+Train Loss: 0.3614, Train Accuracy: 0.8587
+Validation Loss: 0.3965, Validation Accuracy: 0.8518
+Epoch 3/5
+Train Loss: 0.2740, Train Accuracy: 0.8945
+Validation Loss: 0.4165, Validation Accuracy: 0.8434
+Epoch 4/5
+Train Loss: 0.2369, Train Accuracy: 0.9084
+Validation Loss: 0.3974, Validation Accuracy: 0.8575
+Epoch 5/5
+Train Loss: 0.1825, Train Accuracy: 0.9290
+Validation Loss: 0.3817, Validation Accuracy: 0.8803
