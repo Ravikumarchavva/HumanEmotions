@@ -1,0 +1,34 @@
+{"time":"2024-10-11T03:30:56.9832787+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T03:30:56.9832787+05:30","level":"INFO","msg":"created symlink","path":"d:\\github\\HumanEmotions\\pytorch\\wandb\\wandb\\run-20241011_033056-5fxvmtwm\\logs\\debug-core.log"}
+{"time":"2024-10-11T03:30:56.9843242+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T03:30:57.0242389+05:30","level":"INFO","msg":"created new stream","id":"5fxvmtwm"}
+{"time":"2024-10-11T03:30:57.0277553+05:30","level":"INFO","msg":"stream: started","id":"5fxvmtwm"}
+{"time":"2024-10-11T03:30:57.028511+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"5fxvmtwm"}}
+{"time":"2024-10-11T03:30:57.028511+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"5fxvmtwm"}}
+{"time":"2024-10-11T03:30:57.028511+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"5fxvmtwm"}}
+{"time":"2024-10-11T03:31:00.3110469+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T03:31:00.3121287+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T03:31:00.4806889+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:31:00.5040905+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:31:04.6030695+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:31:04.6341325+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:31:09.6469564+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:31:09.6689728+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:31:09.6718615+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:40:11.7636596+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:40:25.2672253+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:40:58.5684929+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:40:58.6271886+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:41:05.8523256+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:41:05.8968477+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:41:23.1267686+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:41:59.4243088+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:43:08.6577329+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:43:10.3622168+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T03:44:13.4552075+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-11T03:44:16.9496609+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-11T10:04:57.9194668+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ravikumarchavva-org/transformers-human-emotion-estimation/5fxvmtwm/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-11T10:05:21.0036864+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.5:61047->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-10-11T11:49:29.9901513+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.5:62697->35.186.228.49:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond."}
+{"time":"2024-10-11T13:10:21.0987195+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ravikumarchavva-org/transformers-human-emotion-estimation/5fxvmtwm/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-11T13:49:18.227729+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/ravikumarchavva-org/transformers-human-emotion-estimation/5fxvmtwm/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}

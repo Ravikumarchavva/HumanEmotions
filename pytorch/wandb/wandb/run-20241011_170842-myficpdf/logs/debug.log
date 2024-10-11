@@ -1,0 +1,99 @@
+2024-10-11 17:08:42,487 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-11 17:08:42,487 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Configure stats pid to 3140
+2024-10-11 17:08:42,487 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from C:\Users\chavv\.config\wandb\settings
+2024-10-11 17:08:42,489 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from d:\github\HumanEmotions\pytorch\wandb\wandb\settings
+2024-10-11 17:08:42,489 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-10-11 17:08:42,489 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-11 17:08:42,489 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-11 17:08:42,490 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-11 17:08:42,490 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-11 17:08:42,490 INFO    MainThread:3140 [wandb_init.py:_log_setup():532] Logging user logs to d:\github\HumanEmotions\pytorch\wandb\wandb\run-20241011_170842-myficpdf\logs\debug.log
+2024-10-11 17:08:42,490 INFO    MainThread:3140 [wandb_init.py:_log_setup():533] Logging internal logs to d:\github\HumanEmotions\pytorch\wandb\wandb\run-20241011_170842-myficpdf\logs\debug-internal.log
+2024-10-11 17:08:42,491 INFO    MainThread:3140 [wandb_init.py:_jupyter_setup():478] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000002105DF565E0>
+2024-10-11 17:08:42,491 INFO    MainThread:3140 [wandb_init.py:init():617] calling init triggers
+2024-10-11 17:08:42,491 INFO    MainThread:3140 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 10, 'batch_size': 32, 'image_size': 224, 'num_classes': 3}
+2024-10-11 17:08:42,491 INFO    MainThread:3140 [wandb_init.py:init():667] starting backend
+2024-10-11 17:08:42,492 INFO    MainThread:3140 [wandb_init.py:init():671] sending inform_init request
+2024-10-11 17:08:42,495 INFO    MainThread:3140 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-11 17:08:42,496 INFO    MainThread:3140 [wandb_init.py:init():684] backend started and connected
+2024-10-11 17:08:42,514 INFO    MainThread:3140 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-11 17:08:42,516 INFO    MainThread:3140 [wandb_run.py:_label_probe_notebook():1356] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-11 17:08:42,517 INFO    MainThread:3140 [wandb_init.py:init():779] updated telemetry
+2024-10-11 17:08:42,688 INFO    MainThread:3140 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-11 17:08:43,257 INFO    MainThread:3140 [wandb_init.py:init():863] starting run threads in backend
+2024-10-11 17:08:43,741 INFO    MainThread:3140 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-11 17:08:43,742 INFO    MainThread:3140 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-11 17:08:43,742 INFO    MainThread:3140 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-11 17:08:43,742 INFO    MainThread:3140 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-11 17:08:43,746 INFO    MainThread:3140 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-11 17:08:43,746 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 17:08:43,746 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 17:08:43,814 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 17:08:52,063 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 17:08:52,063 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 17:08:52,105 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 17:08:57,919 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 17:08:57,920 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 17:08:57,982 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 17:08:57,988 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 17:08:57,989 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 17:08:58,060 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:18:51,622 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:18:51,623 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:04,683 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:04,687 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:04,687 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:06,460 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:06,465 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:06,466 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:10,568 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:10,573 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:10,573 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:13,717 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:13,721 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:13,722 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:14,646 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:14,651 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:14,651 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:18,730 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:18,736 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:18,736 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:43,836 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:43,840 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:43,841 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:45,768 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:45,771 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:45,773 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:20:47,460 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:20:47,465 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:20:47,465 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:21:36,247 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:21:36,252 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:21:36,253 INFO    MainThread:3140 [wandb_init.py:_pause_backend():443] pausing backend
+2024-10-11 18:21:36,282 INFO    MainThread:3140 [wandb_init.py:_resume_backend():448] resuming backend
+2024-10-11 18:21:36,298 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-11 18:21:36,298 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Configure stats pid to 3140
+2024-10-11 18:21:36,298 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from C:\Users\chavv\.config\wandb\settings
+2024-10-11 18:21:36,298 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from d:\github\HumanEmotions\pytorch\wandb\wandb\settings
+2024-10-11 18:21:36,298 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {'api_key': '***REDACTED***'}
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_init.py:_log_setup():532] Logging user logs to d:\github\HumanEmotions\pytorch\wandb\wandb\run-20241011_182136-g53ri6nr\logs\debug.log
+2024-10-11 18:21:36,299 INFO    MainThread:3140 [wandb_init.py:_log_setup():533] Logging internal logs to d:\github\HumanEmotions\pytorch\wandb\wandb\run-20241011_182136-g53ri6nr\logs\debug-internal.log
+2024-10-11 18:21:36,300 INFO    MainThread:3140 [wandb_init.py:init():617] calling init triggers
+2024-10-11 18:21:36,300 INFO    MainThread:3140 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'epochs': 10, 'batch_size': 32, 'image_size': 224, 'num_classes': 3}
+2024-10-11 18:21:36,300 INFO    MainThread:3140 [wandb_init.py:init():642] re-initializing run, found existing run on stack: myficpdf
+2024-10-11 18:21:36,302 INFO    MainThread:3140 [wandb_run.py:_finish():2164] finishing run ravikumarchavva-org/transformers-human-emotion-estimation-pytorch/myficpdf
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [jupyter.py:save_history():459] not saving jupyter history
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [jupyter.py:save_ipynb():387] not saving jupyter notebook
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [wandb_init.py:_jupyter_teardown():460] cleaning up jupyter logic
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [wandb_run.py:_restore():2410] restore
+2024-10-11 18:21:36,303 INFO    MainThread:3140 [wandb_run.py:_restore():2416] restore done
+2024-10-11 18:21:39,187 INFO    MainThread:3140 [wandb_run.py:_footer_history_summary_info():4049] rendering history
+2024-10-11 18:21:39,188 INFO    MainThread:3140 [wandb_run.py:_footer_history_summary_info():4081] rendering summary
+2024-10-11 18:21:39,193 INFO    MainThread:3140 [wandb_run.py:_footer_sync_info():4008] logging synced files
