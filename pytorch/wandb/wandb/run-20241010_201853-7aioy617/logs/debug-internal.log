@@ -1,0 +1,14 @@
+{"time":"2024-10-10T20:18:53.6642317+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-10T20:18:53.6642317+05:30","level":"INFO","msg":"created symlink","path":"d:\\github\\HumanEmotions\\pytorch\\wandb\\wandb\\run-20241010_201853-7aioy617\\logs\\debug-core.log"}
+{"time":"2024-10-10T20:18:53.665913+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-10T20:18:53.7096187+05:30","level":"INFO","msg":"created new stream","id":"7aioy617"}
+{"time":"2024-10-10T20:18:53.7101747+05:30","level":"INFO","msg":"stream: started","id":"7aioy617"}
+{"time":"2024-10-10T20:18:53.7101747+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"7aioy617"}}
+{"time":"2024-10-10T20:18:53.7101747+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"7aioy617"}}
+{"time":"2024-10-10T20:18:53.7101747+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7aioy617"}}
+{"time":"2024-10-10T20:18:54.6571021+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-10T20:18:54.6587255+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-10T20:18:54.8649158+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:18:54.8894644+05:30","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-10T20:18:54.8915669+05:30","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-10T20:18:54.9123272+05:30","level":"INFO","msg":"Resuming system monitor"}
