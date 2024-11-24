@@ -1,4 +1,0 @@
-Number of training samples: 6799
-Number of testing samples: 2280
-wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
-Logged in successfully.

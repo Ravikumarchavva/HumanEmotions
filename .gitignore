@@ -31,3 +31,5 @@ logs/*
 **/*.pyo
 **/.ipynb_checkpoints/
 **/.pytest_cache/pytorch/wandb_lean/vit-emotion-classification/*.safetensors
+
+aws/*
